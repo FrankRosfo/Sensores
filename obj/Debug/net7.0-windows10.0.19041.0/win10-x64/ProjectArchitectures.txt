@@ -1,0 +1,1 @@
+C:\DRATENZ\CURSO MAUI\Sensores\Sensores.csproj;x64
