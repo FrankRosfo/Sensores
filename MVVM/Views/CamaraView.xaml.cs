@@ -1,4 +1,3 @@
-using Sensores.MVVM.Models;
 using Sensores.MVVM.ViewModels;
 
 namespace Sensores.MVVM.Views;

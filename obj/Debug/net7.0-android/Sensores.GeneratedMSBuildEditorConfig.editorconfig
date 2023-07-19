@@ -13,51 +13,51 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Sensores
-build_property.ProjectDir = C:\DRATENZ\CURSO MAUI\Sensores\
+build_property.ProjectDir = D:\ProyectosVisual\MAUI\Sensores\
 
-[C:/DRATENZ/CURSO MAUI/Sensores/App.xaml]
+[D:/ProyectosVisual/MAUI/Sensores/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Sensores.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/DRATENZ/CURSO MAUI/Sensores/AppShell.xaml]
+[D:/ProyectosVisual/MAUI/Sensores/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Sensores.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/DRATENZ/CURSO MAUI/Sensores/MainPage.xaml]
+[D:/ProyectosVisual/MAUI/Sensores/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Sensores.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/DRATENZ/CURSO MAUI/Sensores/MVVM/Views/CamaraView.xaml]
+[D:/ProyectosVisual/MAUI/Sensores/MVVM/Views/CamaraView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Sensores.MVVM.Views.CamaraView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\Views\CamaraView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\Views\CamaraView.xaml
 
-[C:/DRATENZ/CURSO MAUI/Sensores/MVVM/Views/MovimientoView.xaml]
+[D:/ProyectosVisual/MAUI/Sensores/MVVM/Views/MovimientoView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Sensores.MVVM.Views.MovimientoView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\Views\MovimientoView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\Views\MovimientoView.xaml
 
-[C:/DRATENZ/CURSO MAUI/Sensores/MVVM/Views/PrincipalView.xaml]
+[D:/ProyectosVisual/MAUI/Sensores/MVVM/Views/PrincipalView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Sensores.MVVM.Views.PrincipalView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\Views\PrincipalView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\Views\PrincipalView.xaml
 
-[C:/DRATENZ/CURSO MAUI/Sensores/Resources/Styles/Colors.xaml]
+[D:/ProyectosVisual/MAUI/Sensores/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Sensores.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/DRATENZ/CURSO MAUI/Sensores/Resources/Styles/Styles.xaml]
+[D:/ProyectosVisual/MAUI/Sensores/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Sensores.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
