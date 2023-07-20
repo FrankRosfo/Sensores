@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v7.0/win10-x64": {
       "Sensores/1.0": {
         "dependencies": {
+          "Camera.MAUI": "1.4.4",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0",
@@ -19,6 +20,8 @@
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755",
           "Microsoft.WindowsAppSDK": "1.2.221209.1",
           "PropertyChanged.Fody": "4.1.0",
+          "ZXing.Net": "0.16.9",
+          "ZXing.Net.Maui": "0.3.0-preview.1",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.5",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.86",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.86",
@@ -793,6 +796,17 @@
           }
         }
       },
+      "Camera.MAUI/1.4.4": {
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {
+            "assemblyVersion": "1.4.4.0",
+            "fileVersion": "1.4.4.0"
+          }
+        }
+      },
       "Fody/6.6.4": {},
       "Microsoft.Extensions.Configuration/7.0.0": {
         "dependencies": {
@@ -1001,6 +1015,25 @@
         "dependencies": {
           "Fody": "6.6.4"
         }
+      },
+      "ZXing.Net/0.16.9": {
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "assemblyVersion": "0.16.9.0",
+            "fileVersion": "0.16.9.0"
+          }
+        }
+      },
+      "ZXing.Net.Maui/0.3.0-preview.1": {
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1034,6 +1067,13 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "Camera.MAUI/1.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hsCdEVRXR7hzESvOHOxQJkiJxxd6/j/daHekhQVzQAZFlzuKkN1ncDxXNG5tXyutX6VaCzYLZiA7rSvqtCZT9w==",
+      "path": "camera.maui/1.4.4",
+      "hashPath": "camera.maui.1.4.4.nupkg.sha512"
     },
     "Fody/6.6.4": {
       "type": "package",
@@ -1146,6 +1186,20 @@
       "sha512": "sha512-6v+f9cI8YjnZH2WBHuOqWEAo8DFFNGFIdU8xD3AsL6fhV6Y8oAmVWd7XKk49t8DpeUBwhR/X+97+6Epvek0Y3A==",
       "path": "propertychanged.fody/4.1.0",
       "hashPath": "propertychanged.fody.4.1.0.nupkg.sha512"
+    },
+    "ZXing.Net/0.16.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7WaVMHklpT3Ye2ragqRIwlFRsb6kOk63BOGADV0fan3ulVfGLUYkDi5yNUsZS/7FVNkWbtHAlDLmu4WnHGfqvQ==",
+      "path": "zxing.net/0.16.9",
+      "hashPath": "zxing.net.0.16.9.nupkg.sha512"
+    },
+    "ZXing.Net.Maui/0.3.0-preview.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y+iBtFpOrjKny5DoHwKigy5jmXqm/YtwDu3rMhezfIIMMwVA9C/I06zLKWPb1yPRaM5QWvVtbbQ7lW0wMehthw==",
+      "path": "zxing.net.maui/0.3.0-preview.1",
+      "hashPath": "zxing.net.maui.0.3.0-preview.1.nupkg.sha512"
     }
   },
   "runtimes": {

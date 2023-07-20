@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProyectosVisual\\MAUI\\Sensores\\Sensores.csproj": {}
+    "C:\\DRATENZ\\CURSO MAUI\\Sensores\\Sensores.csproj": {}
   },
   "projects": {
-    "D:\\ProyectosVisual\\MAUI\\Sensores\\Sensores.csproj": {
+    "C:\\DRATENZ\\CURSO MAUI\\Sensores\\Sensores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosVisual\\MAUI\\Sensores\\Sensores.csproj",
+        "projectUniqueName": "C:\\DRATENZ\\CURSO MAUI\\Sensores\\Sensores.csproj",
         "projectName": "Sensores",
-        "projectPath": "D:\\ProyectosVisual\\MAUI\\Sensores\\Sensores.csproj",
-        "packagesPath": "C:\\Users\\razie\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosVisual\\MAUI\\Sensores\\obj\\",
+        "projectPath": "C:\\DRATENZ\\CURSO MAUI\\Sensores\\Sensores.csproj",
+        "packagesPath": "C:\\Users\\DTZ-FJRS\\.nuget\\packages\\",
+        "outputPath": "C:\\DRATENZ\\CURSO MAUI\\Sensores\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\razie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Users\\DTZ-FJRS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,7 +29,6 @@
           "net7.0-windows10.0.19041.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
@@ -64,6 +61,10 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "Camera.MAUI": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -152,6 +153,10 @@
               "version": "[1.7.0.1, )",
               "autoReferenced": true
             },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.9, )"
+            },
             "ZXing.Net.Maui": {
               "target": "Package",
               "version": "[0.3.0-preview.1, )"
@@ -190,6 +195,10 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "Camera.MAUI": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -222,6 +231,10 @@
             "PropertyChanged.Fody": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.9, )"
             },
             "ZXing.Net.Maui": {
               "target": "Package",
@@ -261,6 +274,10 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "Camera.MAUI": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -293,6 +310,10 @@
             "PropertyChanged.Fody": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.9, )"
             },
             "ZXing.Net.Maui": {
               "target": "Package",
@@ -333,6 +354,10 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "Camera.MAUI": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -381,6 +406,10 @@
             "PropertyChanged.Fody": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.9, )"
             },
             "ZXing.Net.Maui": {
               "target": "Package",

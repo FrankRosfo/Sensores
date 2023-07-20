@@ -1,3 +1,4 @@
+C:\Users\DTZ-FJRS\.nuget\packages\camera.maui\1.4.4\lib\net7.0-windows10.0.19041\Camera.MAUI.dll
 C:\Users\DTZ-FJRS\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll
 C:\Users\DTZ-FJRS\.nuget\packages\microsoft.extensions.configuration.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\DTZ-FJRS\.nuget\packages\microsoft.extensions.dependencyinjection\7.0.0\lib\net7.0\Microsoft.Extensions.DependencyInjection.dll
@@ -24,6 +25,8 @@ C:\Users\DTZ-FJRS\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.
 C:\Users\DTZ-FJRS\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll
 C:\Users\DTZ-FJRS\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll
 C:\Users\DTZ-FJRS\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\DTZ-FJRS\.nuget\packages\zxing.net\0.16.9\lib\net7.0\zxing.dll
+C:\Users\DTZ-FJRS\.nuget\packages\zxing.net.maui\0.3.0-preview.1\lib\net7.0-windows10.0.19041\ZXing.Net.MAUI.dll
 C:\Users\DTZ-FJRS\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll
 C:\Users\DTZ-FJRS\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
 C:\Users\DTZ-FJRS\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll

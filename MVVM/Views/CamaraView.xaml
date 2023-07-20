@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:Sensores.MVVM.ViewModels"
              xmlns:views="clr-namespace:Sensores.MVVM.Views"
+             xmlns:cv="clr-namespace:Camera.MAUI;assembly=Camera.MAUI"
              x:Class="Sensores.MVVM.Views.CamaraView">
 
     <ScrollView HorizontalOptions="FillAndExpand"
@@ -11,16 +12,17 @@
             <Grid RowDefinitions="70,200,30,50">
 
                 <Grid Grid.Row="1"
-                  BackgroundColor="Transparent">
-                    <Button Text="Scan QR Code" Clicked="OnScanButtonClicked" />
-                    <Label x:Name="resultLabel" Text="" FontSize="24" HorizontalTextAlignment="Center" />
+                      BackgroundColor="Transparent">
+                    <cv:CameraView x:Name="cameraView"
+                                   CamerasLoaded="cameraView_CamerasLoaded"
+                                   BarCodeDetectionEnabled="True"
+                                   BarcodeDetected="cameraView_BarcodeDetected"/>
                 </Grid>
 
                 <Grid Grid.Row="3"
                   BackgroundColor="Transparent">
-                    <Button BackgroundColor="{StaticResource colorAzulClaro}"
-                            Text="Escanear"
-                            TextColor="White"/>
+
+                    <Label x:Name="lblResultado"/>
 
                 </Grid>
             </Grid>

@@ -259,3 +259,6 @@ C:\DRATENZ\CURSO MAUI\Sensores\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\refi
 C:\DRATENZ\CURSO MAUI\Sensores\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\Sensores.pdb
 C:\DRATENZ\CURSO MAUI\Sensores\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\Sensores.genruntimeconfig.cache
 C:\DRATENZ\CURSO MAUI\Sensores\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\Sensores.dll
+C:\DRATENZ\CURSO MAUI\Sensores\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Camera.MAUI.dll
+C:\DRATENZ\CURSO MAUI\Sensores\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\zxing.dll
+C:\DRATENZ\CURSO MAUI\Sensores\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\ZXing.Net.MAUI.dll

@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-
+using Camera.MAUI;
+using ZXing.Net.Maui;
 namespace Sensores;
 
 public static class MauiProgram
@@ -9,6 +10,7 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
+			.UseMauiCameraView()
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -16,7 +18,7 @@ public static class MauiProgram
 			});
 
 #if DEBUG
-		builder.Logging.AddDebug();
+        builder.Logging.AddDebug();
 
 #endif
         return builder.Build();

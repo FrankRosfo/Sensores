@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net7.0-android33.0": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -2067,15 +2083,15 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -2101,6 +2117,22 @@
       }
     },
     "net7.0-android33.0/android-arm": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -4166,15 +4198,15 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -4200,6 +4232,22 @@
       }
     },
     "net7.0-android33.0/android-arm64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -6265,15 +6313,15 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -6299,6 +6347,22 @@
       }
     },
     "net7.0-android33.0/android-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -8364,15 +8428,15 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -8398,6 +8462,22 @@
       }
     },
     "net7.0-android33.0/android-x86": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -10463,15 +10543,15 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -10497,6 +10577,22 @@
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -12562,15 +12658,15 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -12596,6 +12692,22 @@
       }
     },
     "net7.0-android33.0/maccatalyst-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -14661,15 +14773,15 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -14695,6 +14807,22 @@
       }
     },
     "net7.0-android33.0/win10-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -16760,15 +16888,15 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -16794,6 +16922,18 @@
       }
     },
     "net7.0-ios16.1": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -17001,15 +17141,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -17028,6 +17168,18 @@
       }
     },
     "net7.0-ios16.1/android-arm": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -17235,15 +17387,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -17262,6 +17414,18 @@
       }
     },
     "net7.0-ios16.1/android-arm64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -17469,15 +17633,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -17496,6 +17660,18 @@
       }
     },
     "net7.0-ios16.1/android-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -17703,15 +17879,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -17730,6 +17906,18 @@
       }
     },
     "net7.0-ios16.1/android-x86": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -17937,15 +18125,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -17964,6 +18152,18 @@
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -18171,15 +18371,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -18198,6 +18398,18 @@
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -18405,15 +18617,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -18432,6 +18644,18 @@
       }
     },
     "net7.0-ios16.1/win10-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -18639,15 +18863,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -18666,6 +18890,18 @@
       }
     },
     "net7.0-maccatalyst16.1": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -18873,15 +19109,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -18900,6 +19136,18 @@
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -19107,15 +19355,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -19134,6 +19382,18 @@
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -19341,15 +19601,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -19368,6 +19628,18 @@
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -19575,15 +19847,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -19602,6 +19874,18 @@
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -19809,15 +20093,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -19836,6 +20120,18 @@
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -20043,15 +20339,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -20070,6 +20366,18 @@
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -20277,15 +20585,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -20304,6 +20612,18 @@
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -20511,15 +20831,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -20538,6 +20858,18 @@
       }
     },
     "net7.0-windows10.0.19041": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -20883,15 +21215,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -20910,6 +21242,18 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -21227,15 +21571,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -21254,6 +21598,18 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -21571,15 +21927,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -21598,6 +21954,18 @@
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -21915,15 +22283,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -21942,6 +22310,18 @@
       }
     },
     "net7.0-windows10.0.19041/android-x86": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -22259,15 +22639,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -22286,6 +22666,18 @@
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -22603,15 +22995,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -22630,6 +23022,18 @@
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -22947,15 +23351,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -22974,6 +23378,18 @@
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
+      "Camera.MAUI/1.4.4": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -23297,15 +23713,15 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
-      "ZXing.Net/0.16.8": {
+      "ZXing.Net/0.16.9": {
         "type": "package",
         "compile": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net6.0/zxing.dll": {
+          "lib/net7.0/zxing.dll": {
             "related": ".XML"
           }
         }
@@ -23325,6 +23741,26 @@
     }
   },
   "libraries": {
+    "Camera.MAUI/1.4.4": {
+      "sha512": "hsCdEVRXR7hzESvOHOxQJkiJxxd6/j/daHekhQVzQAZFlzuKkN1ncDxXNG5tXyutX6VaCzYLZiA7rSvqtCZT9w==",
+      "type": "package",
+      "path": "camera.maui/1.4.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.md",
+        "camera.maui.1.4.4.nupkg.sha512",
+        "camera.maui.nuspec",
+        "camera.maui.png",
+        "lib/net7.0-android33.0/Camera.MAUI.aar",
+        "lib/net7.0-android33.0/Camera.MAUI.dll",
+        "lib/net7.0-android33.0/Camera.MAUI.xml",
+        "lib/net7.0-ios16.1/Camera.MAUI.dll",
+        "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll",
+        "lib/net7.0-windows10.0.19041/Camera.MAUI.dll",
+        "lib/net7.0/Camera.MAUI.dll"
+      ]
+    },
     "Fody/6.6.4": {
       "sha512": "vLZS+oa+ndUHYPlx/8n9bBTT3dHkCF0riml4paKq4D663+cZd47x1uagQo32D/gKFZ/sfmV1oqKaLmH0elxq4A==",
       "type": "package",
@@ -26730,10 +27166,10 @@
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
     },
-    "ZXing.Net/0.16.8": {
-      "sha512": "Cbbe+x7I7E+VJ0VxU1fPc7AktIw/9xea/ZY/fh38sXqTQ75LJp9ooGUjpzFqfpPfIKozAoXgJ4yvY4GzKpPBzQ==",
+    "ZXing.Net/0.16.9": {
+      "sha512": "7WaVMHklpT3Ye2ragqRIwlFRsb6kOk63BOGADV0fan3ulVfGLUYkDi5yNUsZS/7FVNkWbtHAlDLmu4WnHGfqvQ==",
       "type": "package",
-      "path": "zxing.net/0.16.8",
+      "path": "zxing.net/0.16.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26772,6 +27208,8 @@
         "lib/net5.0/zxing.dll",
         "lib/net6.0/zxing.XML",
         "lib/net6.0/zxing.dll",
+        "lib/net7.0/zxing.XML",
+        "lib/net7.0/zxing.dll",
         "lib/netcoreapp3.0/zxing.dll",
         "lib/netcoreapp3.0/zxing.xml",
         "lib/netcoreapp3.1/zxing.dll",
@@ -26807,7 +27245,7 @@
         "lib/wp8/zxing.wp8.0.XML",
         "lib/wp8/zxing.wp8.0.dll",
         "logo.jpg",
-        "zxing.net.0.16.8.nupkg.sha512",
+        "zxing.net.0.16.9.nupkg.sha512",
         "zxing.net.nuspec"
       ]
     },
@@ -26831,6 +27269,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
+      "Camera.MAUI >= 1.4.4",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26849,9 +27288,11 @@
       "Xamarin.AndroidX.Security.SecurityCrypto >= 1.1.0-alpha03",
       "Xamarin.Google.Android.Material >= 1.7.0",
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1",
+      "ZXing.Net >= 0.16.9",
       "ZXing.Net.Maui >= 0.3.0-preview.1"
     ],
     "net7.0-ios16.1": [
+      "Camera.MAUI >= 1.4.4",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26859,9 +27300,11 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.86",
       "PropertyChanged.Fody >= 4.1.0",
+      "ZXing.Net >= 0.16.9",
       "ZXing.Net.Maui >= 0.3.0-preview.1"
     ],
     "net7.0-maccatalyst16.1": [
+      "Camera.MAUI >= 1.4.4",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26869,9 +27312,11 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.86",
       "PropertyChanged.Fody >= 4.1.0",
+      "ZXing.Net >= 0.16.9",
       "ZXing.Net.Maui >= 0.3.0-preview.1"
     ],
     "net7.0-windows10.0.19041": [
+      "Camera.MAUI >= 1.4.4",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26882,31 +27327,29 @@
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
       "PropertyChanged.Fody >= 4.1.0",
+      "ZXing.Net >= 0.16.9",
       "ZXing.Net.Maui >= 0.3.0-preview.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\razie\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
+    "C:\\Users\\DTZ-FJRS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProyectosVisual\\MAUI\\Sensores\\Sensores.csproj",
+      "projectUniqueName": "C:\\DRATENZ\\CURSO MAUI\\Sensores\\Sensores.csproj",
       "projectName": "Sensores",
-      "projectPath": "D:\\ProyectosVisual\\MAUI\\Sensores\\Sensores.csproj",
-      "packagesPath": "C:\\Users\\razie\\.nuget\\packages\\",
-      "outputPath": "D:\\ProyectosVisual\\MAUI\\Sensores\\obj\\",
+      "projectPath": "C:\\DRATENZ\\CURSO MAUI\\Sensores\\Sensores.csproj",
+      "packagesPath": "C:\\Users\\DTZ-FJRS\\.nuget\\packages\\",
+      "outputPath": "C:\\DRATENZ\\CURSO MAUI\\Sensores\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\razie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+        "C:\\Users\\DTZ-FJRS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -26917,7 +27360,6 @@
         "net7.0-windows10.0.19041.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
@@ -26950,6 +27392,10 @@
       "net7.0-android33.0": {
         "targetAlias": "net7.0-android",
         "dependencies": {
+          "Camera.MAUI": {
+            "target": "Package",
+            "version": "[1.4.4, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -27038,6 +27484,10 @@
             "version": "[1.7.0.1, )",
             "autoReferenced": true
           },
+          "ZXing.Net": {
+            "target": "Package",
+            "version": "[0.16.9, )"
+          },
           "ZXing.Net.Maui": {
             "target": "Package",
             "version": "[0.3.0-preview.1, )"
@@ -27076,6 +27526,10 @@
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
         "dependencies": {
+          "Camera.MAUI": {
+            "target": "Package",
+            "version": "[1.4.4, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -27108,6 +27562,10 @@
           "PropertyChanged.Fody": {
             "target": "Package",
             "version": "[4.1.0, )"
+          },
+          "ZXing.Net": {
+            "target": "Package",
+            "version": "[0.16.9, )"
           },
           "ZXing.Net.Maui": {
             "target": "Package",
@@ -27147,6 +27605,10 @@
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
         "dependencies": {
+          "Camera.MAUI": {
+            "target": "Package",
+            "version": "[1.4.4, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -27179,6 +27641,10 @@
           "PropertyChanged.Fody": {
             "target": "Package",
             "version": "[4.1.0, )"
+          },
+          "ZXing.Net": {
+            "target": "Package",
+            "version": "[0.16.9, )"
           },
           "ZXing.Net.Maui": {
             "target": "Package",
@@ -27219,6 +27685,10 @@
       "net7.0-windows10.0.19041": {
         "targetAlias": "net7.0-windows10.0.19041.0",
         "dependencies": {
+          "Camera.MAUI": {
+            "target": "Package",
+            "version": "[1.4.4, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -27267,6 +27737,10 @@
           "PropertyChanged.Fody": {
             "target": "Package",
             "version": "[4.1.0, )"
+          },
+          "ZXing.Net": {
+            "target": "Package",
+            "version": "[0.16.9, )"
           },
           "ZXing.Net.Maui": {
             "target": "Package",
